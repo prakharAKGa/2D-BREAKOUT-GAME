@@ -1,10 +1,4 @@
-/*const grid = document.querySelector('.grid') 
 
-const block = document.createElement('div')
-block.classList.add('block')
-block.style.left='100px';
-block.style.bottom='50px';
-grid.appendChild(block)*/
 
 const grid = document.querySelector('.grid')
 const scoreDisplay = document.querySelector('#score')
@@ -220,7 +214,7 @@ const USER_HIT = new Audio();
 USER_HIT.src = "sounds/paddle_hit.mp3";
 
 const LOSE= new Audio();
-LOSE.src = "sounds/lose.mp3";
+LOSE.src = "sounds/life_lost.mp3";
 
 const restart = document.getElementById("restart");
 
